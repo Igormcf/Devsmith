@@ -8,6 +8,8 @@ import UsersRoutes from './routes/users.routes';
 
 import OrdersRoutes from './routes/orders.routes';
 
+import LoginRoutes from './routes/logi.routes';
+
 const app = express();
 
 app.use(express.json());
@@ -17,5 +19,7 @@ app.use(ProductsRoutes);
 app.use(UsersRoutes);
 
 app.use(OrdersRoutes);
+
+app.use(LoginRoutes);
 
 export default app;
