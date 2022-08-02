@@ -13,7 +13,7 @@ const validUser = (req: Request, res: Response, next: NextFunction) => {
 
   if (error) {
     const [message] = error.details.map((e) => e.message);
-    console.log(error.details[0].message, 'error Joi Product');
+    
     return error.details[0].message.includes('required') ? res.status(400).json({ message })
       : res.status(422).json({ message });
   }
