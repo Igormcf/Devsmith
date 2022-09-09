@@ -29,3 +29,4 @@ Neste projeto, criei uma loja de itens medievais, no formato de uma `API`, utili
   - O banco possui três tabelas: `Users`, `Orders` e `Products`;
   - O script de criação epopulação do banco de dados pode ser visto [aqui](Trybesmith.sql);
 </details>
+
